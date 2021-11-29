@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "title": "11 Wall St, New York, NY 10005-1916, United States",
+      "id": "here:af:streetsection:-7Fh2DzbEeXIadSOteSAOB:CggIBCCEwoHNAhABGgIxMShk",
+      "resultType": "houseNumber",
+      "houseNumberType": "PA",
+      "address": {
+        "label": "string",
+        "countryCode": "string",
+        "countryName": "string",
+        "stateCode": "string",
+        "state": "string",
+        "countyCode": "string",
+        "county": "string",
+        "city": "string",
+        "district": "string",
+        "subdistrict": "string",
+        "street": "string",
+        "block": "string",
+        "subblock": "string",
+        "postalCode": "string",
+        "houseNumber": "string",
+        "building": "string"
+      },
+      "position": {
+        "lat": 40.70714,
+        "lng": -74.01086
+      },
+      "access": [
+        {
+          "lat": 40.70721,
+          "lng": -74.01079
+        }
+      ],
+      "mapView": {
+        "west": -74.01205,
+        "south": 40.70624,
+        "east": -74.00967,
+        "north": 40.70804
+      },
+      "scoring": {
+        "queryScore": 1.0,
+        "fieldScore": {
+          "state": 1.0,
+          "city": 1.0,
+          "streets": [
+            1.0
+          ],
+          "houseNumber": 1.0,
+          "postalCode": 1.0
+        }
+      }
+    }
+  ]
+}
